@@ -1,0 +1,6 @@
+{
+    "require": {
+        "illuminate/database": "*",
+        "bramus/router": "~1.6"
+    }
+}
