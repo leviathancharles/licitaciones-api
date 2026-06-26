@@ -1,0 +1,28 @@
+BUENAS TARDES
+
+SE HA CREADO UNA API EN PHP PURO PARA LA CREACION DE LICITACIONES
+
+COLOCAR LA CARPETA BACKEND HTDOCS O WWW, DEPENDIENDO EL GESTOR DE PHP QUE SE MANEJE.
+
+PARA LA EJECUCION DE LAS LIBRERIAS DEL BACKEND EJECUTAR
+
+composer install 
+
+SOLO SE USARON DOS LIBRERIAS LAS CUALES FUERON 
+
+https://github.com/bramus/router PARA EL ENRUTAMIENTO
+https://github.com/illuminate/database  SE USO COMO ORM 
+
+
+
+LAS RUTAS DEL API SON:
+
+GET localhost/licitaciones/backend/ofertas
+GET localhost/licitaciones/backend/ofertas/{VALOR}
+GET localhost/licitaciones/backend/crear/
+POST localhost/licitaciones/backend/crear/
+POST localhost/licitaciones/backend/ofertas/{VALOR}/actualizar
+POST localhost/licitaciones/backend/ofertas/{VALOR}/document/save
+
+
+EL FRONTEND NO LO ALCANCE A REALIZAR
